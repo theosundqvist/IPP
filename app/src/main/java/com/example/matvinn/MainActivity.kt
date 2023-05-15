@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.Button
+import android.widget.SearchView
 
 private const val TAG = "MainActivity"
 class MainActivity : AppCompatActivity() {
@@ -14,6 +15,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
+        val searchView = findViewById<SearchView>(R.id.searchView)
 
         val buttonOpenNewActivity = findViewById<Button>(R.id.button)
         buttonOpenNewActivity.setOnClickListener{
@@ -26,6 +30,17 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity3::class.java)
             startActivity(intent)
         }
+        searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+            override fun onQueryTextSubmit(query: String): Boolean {
+                // Perform search or filtering logic here
+                return true
+            }
+
+            override fun onQueryTextChange(newText: String): Boolean {
+                // Perform search or filtering logic as the query text changes
+                return true
+            }
+        })
 
 
         /*
