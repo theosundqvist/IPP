@@ -10,7 +10,7 @@ class MainActivity2 : AppCompatActivity() {
         setContentView(R.layout.activity_main2)
     }
 
-    searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+    /*searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
         override fun onQueryTextSubmit(query: String): Boolean {
             // Perform search or filtering logic here
             return true
@@ -20,6 +20,8 @@ class MainActivity2 : AppCompatActivity() {
             // Perform search or filtering logic as the query text changes
             return true
         }
-    })
 
+
+    })
+*/
 }

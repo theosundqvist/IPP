@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val searchView = findViewById<SearchView>(R.id.searchView)
+        //val searchView = findViewById<SearchView>(R.id.searchView)
 
         val buttonOpenNewActivity = findViewById<Button>(R.id.button)
         buttonOpenNewActivity.setOnClickListener{
@@ -30,20 +30,22 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity3::class.java)
             startActivity(intent)
         }
+
+       /*
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String): Boolean {
                 // Perform search or filtering logic here
                 return true
             }
-
-            override fun onQueryTextChange(newText: String): Boolean {
+*/
+            /*override fun onQueryTextChange(newText: String): Boolean {
                 // Perform search or filtering logic as the query text changes
                 return true
             }
         })
 
 
-        /*
+
         button = findViewById(R.id.button)
         button2 = findViewById(R.id.button2)
 

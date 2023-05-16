@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">MatVinn</string>
-    <string name="title">Välkommen till MatVinnet!</string>
+    <string name="app_name">Matvinn</string>
+    <string name="title">Välkommen till Matvinn!</string>
+    <string name="title2">Kylskåpet</string>
     <string name="button1">Kylskåp</string>
     <string name="button2">Skafferi</string>
 

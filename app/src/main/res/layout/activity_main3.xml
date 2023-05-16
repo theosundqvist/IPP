@@ -6,13 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity3">
 
-    <SearchView
-        android:id="@+id/searchView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:iconifiedByDefault="false"
-        android:queryHint="Search"
-        />
 
 
 
@@ -20,6 +13,6 @@
     <TextView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="This is the new activity!"/>
+        android:text="This is the Pantry!"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
