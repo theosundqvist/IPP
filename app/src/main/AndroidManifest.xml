@@ -18,6 +18,12 @@
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
+            android:name=".NewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Fridge"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
