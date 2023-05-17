@@ -11,6 +11,14 @@
     <string name="button4">Kylskåpslista</string>
     <string name="button5">Skafferilista</string>
     <string name="title_activity_main4">MainActivity4</string>
+
+    <string name="text1">Vetemjöl</string>
+    <string name="text2">Strösocker</string>
+    <string name="text3">Spagetti</string>
+    <string name="text4">Flingor</string>
+    <string name="text5">Grötbröd</string>
+    <string name="text6">Makaroner</string>
+
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
