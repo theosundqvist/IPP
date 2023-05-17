@@ -8,5 +8,23 @@
         <item name="android:textColor">@color/black</item>
     </style>
 
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Customize the background color -->
+        <item name="android:background">@android:color/white</item>
+
+        <!-- Customize the text color -->
+        <item name="android:textColor">@android:color/black</item>
+
+        <!-- Customize the hint text color -->
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+
+        <!-- Customize the cursor color -->
+        <item name="colorControlActivated">@android:color/black</item>
+
+        <!-- Customize the search close icon color -->
+        <item name="closeIconTint">@android:color/darker_gray</item>
+
+    </style>
+
 
 </resources>

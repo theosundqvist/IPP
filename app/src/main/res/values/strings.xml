@@ -2,7 +2,11 @@
     <string name="app_name">Matvinn</string>
     <string name="title">Välkommen till Matvinn!</string>
     <string name="title2">Kylskåpet</string>
+    <string name="underText">Vad vill du göra?</string>
     <string name="button1">Kylskåp</string>
     <string name="button2">Skafferi</string>
+    <string name="button3">Skanna matvara</string>
+    <string name="button4">Kylskåpslista</string>
+    <string name="button5">Skafferilista</string>
 
 </resources>
