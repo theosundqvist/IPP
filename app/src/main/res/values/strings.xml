@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Matvinn</string>
     <string name="title">Välkommen till Matvinn!</string>
-    <string name="title2">Kylskåpet</string>
-    <string name="title3">Skafferiet</string>
+    <string name="title2">Mina Kylskåpsvaror</string>
+    <string name="title3">Mina Skafferivaror</string>
 
     <string name="underText">Vad vill du göra?</string>
     <string name="button1">Kylskåp</string>
@@ -10,5 +10,14 @@
     <string name="button3">Skanna matvara</string>
     <string name="button4">Kylskåpslista</string>
     <string name="button5">Skafferilista</string>
+    <string name="title_activity_main4">MainActivity4</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
 </resources>

@@ -1,7 +1,8 @@
 <resources>
-    <!-- Base application theme. --><style name="Theme.MatVinn" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-    <item name="colorPrimary">@color/green</item>
-</style>
+    <!-- Base application theme. -->
+    <style name="Theme.MatVinn" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/green</item>
+    </style>
 
     <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
         <item name="android:background">@drawable/button_background</item>
@@ -25,6 +26,15 @@
         <item name="closeIconTint">@android:color/darker_gray</item>
 
     </style>
+
+    <style name="Theme.MatVinn.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.MatVinn.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MatVinn.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 </resources>
